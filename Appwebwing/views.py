@@ -18,6 +18,8 @@ def courses(request):
 def contact(request):
     return render(request, template_name='contact.html')
 
+def placement(request):
+    return render(request,template_name='placement.html')
 
 def contact_save(request):
     name = request.POST.get('name')

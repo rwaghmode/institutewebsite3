@@ -27,6 +27,7 @@ urlpatterns = [
     path('courses',views.courses,name='courses'),
     path('contact',views.contact,name='contact'),
     path('contact_save',views.contact_save,name='contact_save'),
+    path('placement',views.placement,name='placement')
     # path('pricing',views.pricing,name='pricing'),
 ]
 
